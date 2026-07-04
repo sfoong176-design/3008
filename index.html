@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하수구 막힘 · 고압세척 배관 전문</title>
+    
+    <style>
+        /* 기본 리셋 및 폰트 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+        }
+
+        body {
+            background-color: #f3f4f6;
+            color: #1f2937;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 15px;
+        }
+
+        /* 메인 카드 레이아웃 */
+        .container {
+            background-color: #ffffff;
+            padding: 25px 20px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+        }
+
+        /* 메인 타이틀 */
+        h1 {
+            font-size: 24px;
+            color: #1e3a8a;
+            margin-bottom: 5px;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            font-size: 15px;
+            color: #dc2626; /* 긴급 출동 느낌의 레드 포인트 */
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        /* 이미지 그리드 - 사진 2장을 깔끔하게 배치 */
+        .image-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .image-box {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* 사진이 찌그러지지 않고 꽉 차게 조절 */
+            display: block;
+        }
+
+        /* 전문 서비스 안내 박스 */
+        .info-box {
+            background-color: #f8fafc;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: left;
+            margin-bottom: 20px;
+            border-left: 5px solid #2563eb;
+        }
+
+        .info-box p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #4b5563;
+            margin-bottom: 6px;
+        }
+
+        .info-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-box strong {
+            color: #1e3a8a;
+        }
+
+        /* 구분선 */
+        .divider {
+            border: 0;
+            height: 1px;
+            background: #e5e7eb;
+            margin-bottom: 15px;
+        }
+
+        /* 하단 안내 */
+        .contact-text {
+            font-size: 14px;
+            color: #6b7280;
+            margin-bottom: 10px;
+        }
+
+        /* 전화걸기 버튼 (가장 강조된 초록색 대형 버튼) */
+        .call-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 16px;
+            background-color: #059669; /* 신뢰와 해결을 뜻하는 초록색 */
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 800;
+            font-size: 20px;
+            box-shadow: 0 5px 15px rgba(5, 150, 105, 0.3);
+            transition: all 0.2s ease;
+        }
+
+        .call-btn:hover {
+            background-color: #047857;
+            box-shadow: 0 5px 20px rgba(5, 150, 105, 0.4);
+        }
+
+        .call-btn:active {
+            transform: scale(0.97);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🛠️ 하수구 배관 케어 전문</h1>
+        <p class="subtitle">꽉 막힌 싱크대·변기·하수구 긴급 출동</p>
+        
+        <div class="image-grid">
+            <div class="image-box">
+                <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=500&q=80" alt="하수구 배관 작업">
+            </div>
+            <div class="image-box">
+                <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=500&q=80" alt="맨홀 배관 고압세척">
+            </div>
+        </div>
+
+        <div class="info-box">
+            <p>• <strong>배관 내시경 탐지:</strong> 막힌 원인을 정밀하게 찾아냅니다.</p>
+            <p>• <strong>초고압 세척:</strong> 쌓인 기름 슬러지를 완벽하게 스케일링합니다.</p>
+            <p>• <strong>투명한 비용:</strong> 작업 전 상세히 설명 후 안전하게 시공합니다.</p>
+        </div>
+
+        <hr class="divider">
+
+        <p class="contact-text">스마트폰에서 아래 버튼을 누르면 바로 연결됩니다</p>
+        <a href="tel:010-5506-0040" class="call-btn">📞 010-5506-0040 전화하기</a>
+    </div>
+
+</body>
+</html>
